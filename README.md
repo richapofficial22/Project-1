@@ -17,7 +17,7 @@
     <p> AWS Certified Cloud Practitioner <br>Bengaluru, India</p>
     <div class="links">
     <a href="https://www.linkedin.com/in/richa-prabhakar-cloud/" target="_blank">Connect on LinkedIn</a>
-    <a href="https://github.com/richapofficial22/Project-1" target="_blank" >View on GitHub</a>
+    <a href="https://github.com/richapofficial22" target="_blank" >View on GitHub</a>
     </div>
     <p>Follow my journey in cloud computing and tech!</p>
 </body>
