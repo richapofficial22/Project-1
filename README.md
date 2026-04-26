@@ -13,6 +13,8 @@ First of all I created an IAM User 'AdminRP' from the root account.
 ## 
 
 # Part 1 : Static website delivering with only Amazon S3
+   <img width="314" height="468" alt="Screenshot 2026-04-26 at 8 32 30 AM" src="https://github.com/user-attachments/assets/7fe9d827-7098-4819-8a84-c2ebc6c15067" />
+
 
 - Created S3 bucket (while creating it I unchecked the box for Blocking all public access)
    - <img width="947" height="394" alt="Screenshot 2026-04-25 at 2 25 59 PM" src="https://github.com/user-attachments/assets/ecf5c041-dcca-445a-8fc8-9e488d15abea" />
