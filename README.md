@@ -1,5 +1,6 @@
 # Part 2 : Static website hosting website using Amazon S3 + CloudFront
- 
+ <img width="393" height="490" alt="Screenshot 2026-04-26 at 8 32 58 AM" src="https://github.com/user-attachments/assets/35acf786-f88d-4c0d-a9e3-ecc43f66ee9c" />
+
 ### For this the bucket should have all public access blocked along with the individual objects inside the bucket. 
   - Went to bucket permissions
      <img width="1418" height="442" alt="Screenshot 2026-04-25 at 3 24 02 PM" src="https://github.com/user-attachments/assets/09253cb4-10a1-49ab-81d3-5684989fa8ca" />
