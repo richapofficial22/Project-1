@@ -33,6 +33,34 @@ First of all I created an IAM User 'AdminRP' from the root account.
    - <img width="1414" height="407" alt="Screenshot 2026-04-25 at 2 37 12 PM" src="https://github.com/user-attachments/assets/ec0c2af3-7c90-4906-9e8b-2df4f3a24efc" />
 - And our website is now publically accessible
    - <img width="1440" height="463" alt="Screenshot 2026-04-25 at 2 58 57 PM" src="https://github.com/user-attachments/assets/8ba18579-5c22-46bd-9755-d7d357bb0f9f" />
+##
+   **** Used Claude to audit the project. Understood that ACL based public access was deprecated by AWS in 2023 and for all public access control only bucket policies are sufficient. Hence continuing Part-1 of this project to check the same i.e. without using ACLs.
+##
+- Created another bucket 'demo-bucket-1.2' 
+   - <img width="1419" height="434" alt="Screenshot 2026-04-26 at 6 49 20 AM" src="https://github.com/user-attachments/assets/5a2e5748-e086-4885-8abb-0b3d71d1ee2d" />
+- First & foremost the block all public access checbox needs to be unchecked so that we can implement our bucket policy to have access to our object index.html 
+   - <img width="1418" height="603" alt="Screenshot 2026-04-26 at 7 19 33 AM" src="https://github.com/user-attachments/assets/1ed7591c-3c82-4d4f-929e-b70f32c4e39c" />
+   ### Creating bucket policy for the website hosting
+   - <img width="1408" height="759" alt="Screenshot 2026-04-26 at 6 58 02 AM" src="https://github.com/user-attachments/assets/f3c2caf4-35ae-43d2-931c-fcfa40fc53e4" />
+   - Clicked on Add new statement and chose S3 from the All services option on the left
+      - <img width="1410" height="720" alt="Screenshot 2026-04-26 at 7 09 49 AM" src="https://github.com/user-attachments/assets/9e0e1f95-809f-46a0-8a14-a5f3b8ca9f99" />
+   - Added GetObject action in the Add Actions bar
+      - <img width="1375" height="709" alt="Screenshot 2026-04-26 at 7 13 40 AM" src="https://github.com/user-attachments/assets/0729fa36-47fb-4c9b-8c4a-bf976e548766" />
+   - Mentioned the details about the resources (bucket name & object name)
+      -<img width="1402" height="720" alt="Screenshot 2026-04-26 at 7 15 48 AM" src="https://github.com/user-attachments/assets/f2995a32-204d-47f4-b04e-e37642eb5d42" />
+   - Finally our JSON policy is completed with the object index.html having the public access
+      - <img width="1390" height="702" alt="Screenshot 2026-04-26 at 7 26 30 AM" src="https://github.com/user-attachments/assets/22846499-884e-4f61-b1af-9f27544aba7d" />
+   - Copied the URL of our object index.html
+      - <img width="1395" height="564" alt="Screenshot 2026-04-26 at 7 29 09 AM" src="https://github.com/user-attachments/assets/ed3f14b3-a257-4465-a294-0a0c780a8806" />
+   - And finally our static website index.html is hosted
+      - <img width="1440" height="900" alt="Screenshot 2026-04-26 at 7 30 04 AM" src="https://github.com/user-attachments/assets/20a7a84d-878f-4301-9ac0-dc55740f99a2" />
+
+
+
+
+
+
+
 
 
 
