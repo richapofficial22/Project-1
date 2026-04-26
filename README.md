@@ -1,4 +1,4 @@
-# Project-1
+# aws-s3-cloudfront-static-website
 ## Description : 
 This project is divided into 2 parts. 
    - Part 1: Where i have created a static website and hosted it on the internet with Amazon S3
