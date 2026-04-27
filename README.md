@@ -41,12 +41,7 @@
   - And we have our static website running 
      <img width="1440" height="454" alt="Screenshot 2026-04-25 at 4 29 13 PM" src="https://github.com/user-attachments/assets/16afbd7e-e3a8-42cc-b627-2d00e48a5288" />
 
-##
-##
-### What I learned?
- - ACL vs Bucket Policy : ACLs control access at the object level: Bucket policies control access at the bucket level. AWS recommends bucket policies as the current best practice as they are more explicit, auditable and aligned with least priovilege principles.
- - Why CloudFront over S3? : Global edge caching, it adds HTTPS , Keeps S3 bucket private since it uses Origin Access Contol.
- - Cost Awareness : Both setups operate within AWS free tier for low-traffic use. CloudFront's free tier covers 1 TB data transfer and 10M requests/month. 
+
 
 
 
