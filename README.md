@@ -4,6 +4,13 @@ This project is divided into 2 parts.
    - Part 1: Where i have created a static website and hosted it on the internet with Amazon S3
    - Part 2: The same website I have hosted on internet using Amazon S3 + Cloudfront
 ##
+##
+### What I learned?
+ - ACL vs Bucket Policy : ACLs control access at the object level: Bucket policies control access at the bucket level. AWS recommends bucket policies as the current best practice as they are more explicit, auditable and aligned with least priovilege principles.
+ - Why CloudFront over S3? : Global edge caching, it adds HTTPS , Keeps S3 bucket private since it uses Origin Access Contol.
+ - Cost Awareness : Both setups operate within AWS free tier for low-traffic use. CloudFront's free tier covers 1 TB data transfer and 10M requests/month.
+##
+##
 First of all I created an IAM User 'AdminRP' from the root account.
   - IAM - Created IAM Admin User
     - <img width="2810" height="1588" alt="tempImageRhxrWm" src="https://github.com/user-attachments/assets/e152b36a-2ff2-40ea-a9d7-3c06a37853e9" />
